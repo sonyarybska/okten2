@@ -176,5 +176,8 @@ for (const item of usersWithId) {
         }
     }
 }
-let usersWithCities=usersWithId;
+let usersWithCities=[];
+for (const user of usersWithCities) {
+    usersWithId.push(user)
+}
 console.log(usersWithCities);
