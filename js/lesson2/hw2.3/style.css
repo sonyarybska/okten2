@@ -1,0 +1,11 @@
+.user{
+    margin: 10px;
+    background-color: yellow;
+    width: 920px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}

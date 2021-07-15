@@ -1,0 +1,11 @@
+.post{
+    margin: 10px;
+    background-color: yellow;
+    width: 355px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
