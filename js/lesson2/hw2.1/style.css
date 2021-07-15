@@ -1,0 +1,13 @@
+.simpsons{
+    width:fit-content;
+    margin: 10px;
+    border: 2px solid black;
+}
+.product{
+    width: fit-content;
+    margin: 10px;
+    border: 2px solid black;
+}
+.product img{
+    width: 400px;
+}
