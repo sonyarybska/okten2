@@ -15,22 +15,20 @@ const cylinder = (r, h) => {
 console.log(cylinder(15, 10));
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
-const minMax = (a, b, c) => {
-    let array = [];
-    array.push(a, b, c);
-     let min = array[0];
-    let max = array[0];
-     for (let i = 1; i < array.length; i++) {
-         if (min > array[i]) min = array[i];
+const minMax = (arguments) => {
+     let min = arguments[0];
+    let max = arguments[0];
+     for (let i = 1; i < arguments.length; i++) {
+         if (min > arguments[i]) min = arguments[i];
      }
-     for (let j = 1; j < array.length; j++) {
-         if (max < array[j]) max = array[j];
+     for (let j = 1; j < arguments.length; j++) {
+         if (max < arguments[j]) max = arguments[j];
      }
      console.log(max);
      return min
 
 };
-console.log(minMax(10, 6, 9));
+console.log(minMax([10, 6, 9]));
 
 // - створити функцію яка при створює блок з текстом. Текст задати через аргумент
 const divText=(text)=>{
