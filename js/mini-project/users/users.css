@@ -1,0 +1,31 @@
+body{
+    background-color: lavenderblush;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    background-color: navajowhite;
+}
+#users-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.oneUser{
+    width: 683px;
+    background-color: blanchedalmond;
+    border: 2px solid pink;
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid pink;
+    background-color: white;
+}
+.btn:hover{
+    background-color: lightyellow;
+}
