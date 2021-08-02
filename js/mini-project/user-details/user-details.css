@@ -41,6 +41,10 @@ body {
 }
 
 .onePost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 250px;
     height: 150px;
     margin: 20px;
